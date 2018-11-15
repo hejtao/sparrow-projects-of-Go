@@ -64,7 +64,7 @@ func main() {
 		`) // 多行打印，使用反引号
 	lib = library.NewMusicManager()
 
-	r := bufio.NewReader(os.Stdin) //?????
+	r := bufio.NewReader(os.Stdin) 
 
 	for {
 		fmt.Print("Enter cmd ->")
